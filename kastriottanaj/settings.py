@@ -30,7 +30,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'insecure-dev-fallback')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['kastriottanaj.onrender.com', '127.0.0.1']
+ALLOWED_HOSTS = ['kastriot-tanaj.onrender.com', '127.0.0.1']
 
 # Email backend (for dev, use console backend to test)
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
