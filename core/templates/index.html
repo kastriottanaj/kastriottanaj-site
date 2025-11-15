@@ -1,0 +1,13 @@
+{% load static %}
+<html>
+  <head>
+    <title>Kastriottanaj</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'styles.css' %}" />
+  </head>
+  <body>
+    <h1>
+      <img src="{% static 'kastriot.jpeg' %}" alt="Kastriot" />
+    </h1>
+    <p>I have been visited {{ num_visits }} time{{ num_visits|pluralize }}</p>
+  </body>
+</html>

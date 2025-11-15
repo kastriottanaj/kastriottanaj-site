@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block title %}
+Contact – Kastriot Tanaj
+{% endblock %}
+
+{% block content %}
+<section class="container py-5" style="max-width: 700px;">
+  <h1 class="mb-4">Contact Me</h1>
+  <form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit" class="btn btn-primary">Send Message</button>
+  </form>
+</section>
+{% endblock %}
