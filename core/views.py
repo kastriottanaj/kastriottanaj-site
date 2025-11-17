@@ -52,3 +52,7 @@ def contact(request):
 
 def contact_success(request):
     return render(request, 'core/contact_success.html')
+
+
+def imprint(request):
+    return render(request, 'core/imprint.html')

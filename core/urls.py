@@ -7,4 +7,5 @@ urlpatterns = [
     path('contact/', views.contact, name='contact'),  # ✅ route for /contact/
     path('contact/success/', views.contact_success,
          name='contact-success'),  # ✅ route for thank-you page
+    path("imprint/", views.imprint, name="imprint"),  # ✅ route for /imprint/
 ]
